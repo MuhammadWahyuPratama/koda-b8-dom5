@@ -7,20 +7,85 @@
     <title>Password</title>
   </head>
   <body>
+    <nav class="navbar">
+      <h2>Koda</h2>
+
+      <ul class="nav-links">
+        <li>
+          <a href="#"><span>Home</span></a>
+        </li>
+        <li>
+          <a href="#"><span>About</span></a>
+        </li>
+        <li>
+          <a href="#"><span>Services</span></a>
+        </li>
+        <li>
+          <a href="#"><span>Contact</span></a>
+        </li>
+      </ul>
+
+      <button class="hamburger">☰</button>
+    </nav>
+
     <div class="pass">
-      <form>
-        <h2>
-            Password
-        </h2>
-        <label>
-          <input type="password" name="password" id="password" placeholder="Masukkan Password"  />
-          <button type="button" id=""><img src="asset/eye.svg" /></button>
-        </label>
-      </form>
+      <section>
+        <h1>Register</h1>
+      </section>
+
+      <article>
+        <p>Please fill-in the form below</p>
+      </article>
+
+      <article>
+        <p>Fullname</p>
+        <input type="text" name="name" id="name" />
+      </article>
+
+      <article>
+        <p>Email</p>
+        <input type="text" name="Email" id="email" />
+      </article>
+
+      <article>
+        <form>
+          <p>Password</p>
+          <label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Masukkan Password"
+            />
+            <button type="button" class="eye-btn"><img src="asset/eye.svg" /></button>
+          </label>
+        </form>
+      </article>
+
+      <article>
+        <form>
+          <p>Confirm Password</p>
+          <label>
+            <input
+              type="password"
+              name="confirm-password"
+              placeholder="Masukkan Password"
+              id="confirm-password"
+            />
+            <button type="button" class="eye-btn2"><img src="asset/eye.svg" /></button>
+          </label>
+        </form>
+      </article>
+
+      <article class="submit">
+        <button>
+            <span>
+                Register
+            </span>
+        </button>
+      </article>
     </div>
 
-    <script src="script.js">
-
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
